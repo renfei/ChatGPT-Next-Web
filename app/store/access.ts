@@ -20,7 +20,7 @@ const DEFAULT_ACCESS_STATE = {
   accessCode: "",
   useCustomConfig: false,
 
-  provider: ServiceProvider.OpenAI,
+  provider: ServiceProvider.RENFEI,
 
   // openai
   openaiUrl: DEFAULT_OPENAI_URL,
