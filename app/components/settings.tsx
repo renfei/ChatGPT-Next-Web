@@ -974,8 +974,8 @@ export function Settings() {
                       >
                         <input
                           type="text"
-                          value={accessStore.openaiUrl}
-                          placeholder={OPENAI_BASE_URL}
+                          value="https://chat.home.renfei.net:8443"
+                          placeholder="https://chat.home.renfei.net:8443"
                           onChange={(e) =>
                             accessStore.update(
                               (access) =>

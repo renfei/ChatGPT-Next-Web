@@ -23,7 +23,8 @@ const DEFAULT_ACCESS_STATE = {
   provider: ServiceProvider.RENFEI,
 
   // openai
-  openaiUrl: DEFAULT_OPENAI_URL,
+  // openaiUrl: DEFAULT_OPENAI_URL,
+  openaiUrl: "https://chat.home.renfei.net:8443",
   openaiApiKey: "",
 
   // azure
