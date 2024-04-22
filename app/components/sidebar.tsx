@@ -155,10 +155,10 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          NextChat
+          Chat.Renfei.Net
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          由 RENFEI.NET 提供的 LLM 大模型服务
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
